@@ -46,7 +46,7 @@ class ProductsRepository
 //        }
 
         $limit = $filter['limit'] ?? self::DEFAULT_LIMIT;
-        $logger = ;
+//        $logger = ;
 
         try {
             // some logic...
@@ -59,7 +59,7 @@ class ProductsRepository
 
     public function count(?array $filters): ?int
     {
-        return '0';
+        //return '0';
     }
 
     public function getProductCollection()
